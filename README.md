@@ -1,7 +1,5 @@
 ## [My-Portfolio-3D](https://exslym.github.io/My-Portfolio-3D/)
 
-[![preview](https://github.com/exslym/My-Portfolio-3D/blob/main/public/preview.jpg)](https://exslym.github.io/My-Portfolio-3D/)
-
 ### An outstanding and impressive 3D Developer Portfolio website using React, 3D-graphics and animations with ThreeJS and Framer Motion,  and TailwindCSS!
 
 ### Vercel Deployment: [My-Portfolio-3D](https://my-portfolio-exslym.vercel.app/)
