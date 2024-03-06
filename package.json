@@ -1,4 +1,5 @@
 {
+	"homepage" : "https://thatwasyahya.github.io/portfolio",
 	"name": "portfolio-3d",
 	"private": true,
 	"version": "1.0.0",
@@ -15,24 +16,24 @@
 		"javascript",
 		"vite-plugin-image-optimizer"
 	],
-	"author": "exslym",
-	"homepage": "https://github.com/exslym/My-Portfolio-3D/#",
+	"author": "yahya",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/exslym/My-Portfolio-3D.git"
+		"url": "https://github.com/thatwasyahya/Portfolio.git"
 	},
 	"bugs": {
-		"url": "https://github.com/exslym/My-Portfolio-3D/issues"
+		"url": "https://github.com/thatwasyahya/Portfolio.git"
 	},
 	"browserslist": [
 		"cover 99.5%"
 	],
 	"scripts": {
 		"start": "vite --port 3000 --open",
+		"predeploy":"npm run build",
+		"deploy":"gh-pages -d build",
 		"serve": "vite preview --port 3001 --open",
 		"dev": "vite",
-		"build": "vite build",
-		"deploy": "gh-pages -d build"
+		"build": "vite build"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.10.0",
