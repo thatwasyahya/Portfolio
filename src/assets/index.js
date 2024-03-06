@@ -15,18 +15,24 @@ import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import qwik from './tech/qwik.png';
+import jetbrains from './tech/jetbrains.png';
+import worldpress from './tech/worldpress.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import sass from './tech/sass.png';
 import tailwind from './tech/tailwind.png';
 import threejs from './tech/threejs.svg';
+import nodejs from './tech/nodejs.png';
 import typescript from './tech/typescript.png';
 import vite from './tech/vite.png';
 import webpack from './tech/webpack.png';
+import ionic from './tech/ionic.png';
+import angular from './tech/angular.png';
 
 import doctoratwork from './company/doctoratwork.png';
 import doctoratwork1 from './company/doctoratwork1.png';
 import freelance from './company/freelance.png';
+import mcdo from './company/mcdo.png';
 
 import ai_3d_tshirts from './ai_3d_tshirts.jpg';
 import ai_summarizer from './ai_summarizer.jpg';
@@ -49,6 +55,7 @@ export {
 	ai_3d_tshirts,
 	ai_summarizer,
 	astro,
+	angular,
 	chat_gpt,
 	close,
 	cns_portfolio,
@@ -71,10 +78,14 @@ export {
 	gotosite,
 	html,
 	javascript,
+	jetbrains,
 	linkedin,
 	logo,
 	menu,
 	mobile,
+	mcdo,
+	nodejs,
+	ionic,
 	qwik,
 	reactjs,
 	redux,
@@ -88,4 +99,5 @@ export {
 	vite,
 	web,
 	webpack,
+	worldpress,
 };

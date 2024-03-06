@@ -2,6 +2,7 @@ import {
 	ai_3d_tshirts,
 	ai_summarizer,
 	astro,
+	angular,
 	chat_gpt,
 	cns_portfolio,
 	css,
@@ -12,13 +13,18 @@ import {
 	doctoratwork1,
 	e_commerce,
 	eventlify,
+	figma,
 	flutter,
 	freelance,
 	game_2048,
 	git,
 	github_alt,
 	html,
+	mcdo,
+	nodejs,
+	ionic,
 	javascript,
+	jetbrains,
 	linkedin,
 	qwik,
 	reactjs,
@@ -30,6 +36,7 @@ import {
 	typescript,
 	vite,
 	webpack,
+	worldpress,
 } from '../assets';
 
 const githubUser = import.meta.env.VITE_APP_GITHUB_USER;
@@ -53,32 +60,32 @@ export const navLinks = [
 
 const technologies = [
 	{
-		name: 'JavaScript',
-		icon: javascript,
+		name: 'nodejs',
+		icon: nodejs,
 	},
 	{
-		name: 'TypeScript',
-		icon: typescript,
+		name: 'Angular',
+		icon: angular,
 	},
 	{
 		name: 'React',
 		icon: reactjs,
 	},
 	{
-		name: 'Flutter',
-		icon: flutter,
+		name: 'Figma',
+		icon: figma,
 	},
 	{
 		name: 'ThreeJS',
 		icon: threejs,
 	},
 	{
-		name: 'Qwik',
-		icon: qwik,
+		name: 'JetBrains',
+		icon: jetbrains,
 	},
 	{
-		name: 'Astro',
-		icon: astro,
+		name: 'Ionic',
+		icon: ionic,
 	},
 	// {
 	// 	name: 'HTML5',
@@ -101,47 +108,35 @@ const technologies = [
 	// 	icon: webpack,
 	// },
 	{
-		name: 'Vite',
-		icon: vite,
+		name: 'worldpress',
+		icon: worldpress,
 	},
 ];
 
 const experiences = [
 	{
-		title: 'Frontend Developer',
-		company_name: 'Doctor At Work',
-		icon: doctoratwork,
-		iconBg: '#383E56',
-		date: 'September 2020 - Present',
+		title: 'Versatile coworker',
+		company_name: 'McDonald\'s',
+		icon: mcdo,
+		iconBg: '#003500',
+		date: '2023 : June - November',
 		points: [
-			"Developed and maintained over 150 commercial websites, banners and emails with responsive design and cross-browser compatibility, as well as other visual materials as a part of clients' advertising campaigns",
-			'Created dozens of mini-games, chat bots, quizzes and interactive educational sites with complex animated and interactive elements and detailings using JavaScript, TypeScript and frontend frameworks like React, Astro, Qwik, ThreeJS, etc.',
-			"Adapted the code of third-party client projects made in React framework, revised for publication on own or the company's platforms.",
-			'Collaborated with cross-functional teams including designers, project managers, and other developers to create high-quality products.',
-			'Formed and structured development standards to automate routine tasks, carried out systematic code reviews, created needed templates, developed and implemented various plugins, etc.',
+			"Roles in McDonald's Kitchen: Managed various positions within the kitchen, including bread preparation, topping application, protein handling, meat grilling, and frying, ensuring smooth production flow and adherence to quality standards.",
+			'Cleanliness and Stock Management: Ensured cleanliness along the production line, maintained production quality, and managed inventory, including sourcing necessary items from different storage areas in case of stock shortages.',
+			"Dishwashing: Ensured cleanliness of utensils and surfaces, particularly for reuse, with a thorough cleaning process during closing hours.",
+			'Counter Responsibilities: Engaged in diverse tasks at the counter, including restaurant cleanliness supervision, table service, beverage management, special orders handling such as salads, and assembly tasks. Also responsible for managing the drive-through, handling payments, and coordinating order quality checks before delivery.',
 		],
 	},
-	// {
-	// 	title: 'Web Developer',
-	// 	company_name: 'Doctor At Work',
-	// 	icon: doctoratwork1,
-	// 	iconBg: '#E6DEDD',
-	// 	date: 'September 2020 - February 2021',
-	// 	points: [
-	// 		'Developing and maintaining websites using JavaScript, HTML5, CSS3, SCSS, Canvas and other related technologies.',
-	// 		'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-	// 		'Implementing responsive design and ensuring cross-browser compatibility.',
-	// 	],
-	// },
 	{
-		title: 'Frontend Developer',
-		company_name: 'Freelance | Self-employed',
+		title: 'Internship',
+		company_name: 'Détection + Automatisme',
 		icon: freelance,
 		iconBg: '#383E56',
-		date: 'January 2019 - September 2020',
+		date: '2022 : Mai - Aout',
 		points: [
-			'Developed and maintained over 20 websites using JavaScript, HTML5, CSS3, SASS/SCSS and other related technologies',
-			'Implemented responsive adaptive design and ensured cross-browser compatibility.',
+			'Creation of a test bench supervised by a human-machine interface: During my 10-week internship at Détection+Automatisme in Île-de-France, I was tasked with designing an innovative test bench under the supervision of a human-machine interface. This involved designing and building a comprehensive testing system, integrating sensors, actuators, and a user-friendly interface to control and monitor the testing process.',
+			'Development and study of electrical diagrams: An integral part of my role was to create and study detailed electrical diagrams for the test bench. This included analyzing system requirements, selecting appropriate electrical components, creating accurate electrical diagrams, and verifying their compliance with standards and technical specifications.',
+			'Programming of Industrial Automation: In addition to hardware design, I was also responsible for programming industrial automation to automate the operations of the test bench. This involved developing PLC (Programmable Logic Controller) programs to control actuator movements, collect sensor data, and manage user interfaces.',
 		],
 	},
 ];
@@ -303,32 +298,7 @@ const projects = [
 		source_code_link: 'https://github.com/exslym/AI-Summarizer/',
 		website_link: 'https://exslym.github.io/AI-Summarizer/',
 	},
-	{
-		name: 'D-Creative Studio',
-		description:
-			'An outstanding animate-on-scroll landing for Creative Studio - a team of innovative designers, developers, videographs and artists who specialize in crafting unique and engaging digital experiences for their clients.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'html',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'animations',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: dcreative,
-		source_code_link: 'https://github.com/exslym/D-Creative-Studio/',
-		website_link: 'https://exslym.github.io/D-Creative-Studio/',
-	},
+	
 	{
 		name: 'Space Invaders [Game]',
 		description:
