@@ -1,5 +1,5 @@
 {
-	"homepage" : "https://thatwasyahya.github.io/portfolio",
+	"homepage": "https://thatwasyahya.github.io/portfolio",
 	"name": "portfolio-yahya",
 	"private": true,
 	"version": "1.0.0",
@@ -29,8 +29,8 @@
 	],
 	"scripts": {
 		"start": "vite --port 3000 --open",
-		"predeploy":"npm run build",
-		"deploy":"gh-pages -d build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"serve": "vite preview --port 3001 --open",
 		"dev": "vite",
 		"build": "vite build"

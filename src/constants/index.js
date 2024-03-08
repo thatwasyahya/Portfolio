@@ -12,6 +12,7 @@ import {
 	doctoratwork,
 	doctoratwork1,
 	e_commerce,
+	ketchup,
 	eventlify,
 	figma,
 	flutter,
@@ -37,6 +38,12 @@ import {
 	vite,
 	webpack,
 	worldpress,
+	NeverLost,
+	projectdb,
+	captcha,
+	ReversIA,
+	Treecoin,
+	liberty,
 } from '../assets';
 
 const githubUser = import.meta.env.VITE_APP_GITHUB_USER;
@@ -164,7 +171,7 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: e_commerce,
+		image: ketchup,
 		source_code_link: 'https://github.com/exslym/ecommerce/',
 		website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
@@ -190,7 +197,7 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: tiny_world_3d,
+		image: NeverLost,
 		source_code_link: 'https://github.com/exslym/Tiny-World-3D/',
 		website_link: 'https://exslym.github.io/Tiny-World-3D/',
 	},
@@ -216,7 +223,7 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: eventlify,
+		image: ReversIA,
 		source_code_link: 'https://github.com/exslym/eventlify/',
 		website_link: 'https://eventlify-exs.vercel.app/',
 	},
@@ -242,7 +249,7 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: ai_3d_tshirts,
+		image: liberty,
 		source_code_link: 'https://github.com/exslym/3D-AI-Project/',
 		website_link: 'https://exslym.github.io/3D-AI-Project/',
 	},
@@ -268,7 +275,7 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: currency_list,
+		image: Treecoin,
 		source_code_link: 'https://github.com/exslym/Crypto-Coins-List/',
 		website_link: 'https://cryptocurrency-prices-exslym.vercel.app/',
 	},
@@ -294,11 +301,38 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: ai_summarizer,
+		image: projectdb,
 		source_code_link: 'https://github.com/exslym/AI-Summarizer/',
 		website_link: 'https://exslym.github.io/AI-Summarizer/',
 	},
 	
+	{
+		name: 'Space Invaders [Game]',
+		description:
+			'Web-based legendary classic arcade game Space Invaders made with JavaScript and Canvas with its iconic pixel graphics and addictive gameplay with mobile adaptivity and touch controls.',
+		tags: [
+			{
+				name: 'javascript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'html',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'scss',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'canvas',
+				color: 'yellow-text-gradient',
+			},
+		],
+		image: captcha,
+		source_code_link: 'https://github.com/exslym/Space-Invaders_GAME/',
+		website_link: 'https://exslym.github.io/Space-Invaders_GAME/',
+	},
+
 	{
 		name: 'Space Invaders [Game]',
 		description:

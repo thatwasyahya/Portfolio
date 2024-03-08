@@ -6,6 +6,13 @@ import logo from './logo.png';
 import menu from './menu.svg';
 import mobile from './mobile.png';
 import web from './web.png';
+import ketchup from './ketchup.png';
+import NeverLost from './NeverLost.png';
+import Treecoin from './Treecoin.png';
+import ReversIA from './ReversIA.png';
+import liberty from './liberty.png';
+import captcha from './captcha.png';
+import projectdb from './projectdb.png';
 
 import astro from './tech/astro.png';
 import css from './tech/css.png';
@@ -62,6 +69,7 @@ export {
 	creator,
 	css,
 	currency_list,
+	captcha,
 	dcreative,
 	discord,
 	doctoratwork,
@@ -79,12 +87,18 @@ export {
 	html,
 	javascript,
 	jetbrains,
+	ketchup,
 	linkedin,
 	logo,
 	menu,
 	mobile,
 	mcdo,
 	nodejs,
+	NeverLost,
+	projectdb,
+	liberty,
+	ReversIA,
+	Treecoin,
 	ionic,
 	qwik,
 	reactjs,
