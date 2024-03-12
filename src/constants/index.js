@@ -152,7 +152,7 @@ const projects = [
 	{
 		name: 'E-Commerce Shop App',
 		description:
-			'A tech-related e-commerce shop page that even guests can visit, allowing users to explore products, apply category filters, and see more products with pagination, which is key for performance in e-commerce projects.',
+			'Ketch\'up is a mobile application designed to facilitate reunions among friends by streamlining the planning process for trips, accommodations, activities, and expenses. The app considers the availability and budget constraints of each participant to ensure a seamless and enjoyable experience. With Ketch\'up, users can easily coordinate and organize meetups, ensuring that everyone\'s preferences and needs are taken into account.',
 		tags: [
 			{
 				name: 'typescript',
@@ -178,7 +178,7 @@ const projects = [
 	{
 		name: '3D Tiny World',
 		description:
-			'Take a look at my latest 3D portfolio outstanding animated website with levitating island and flying models using 3D-graphics and animations with ThreeJS, React and Tailwind.',
+			'NeverLost is an indoor navigation application equipped with augmented reality (AR) and image recognition artificial intelligence (IA) capabilities. Designed for use in complex indoor environments such as malls, train stations, airports, hospitals, and universities, NeverLost provides users with seamless navigation and guidance. The app offers features such as parking option booking, real-time availability updates, and detailed directions to destinations within these facilities. By combining AR technology with advanced IA, NeverLost enhances the user experience by providing intuitive and efficient indoor navigation solutions.',
 		tags: [
 			{
 				name: 'javascript',
@@ -204,7 +204,7 @@ const projects = [
 	{
 		name: 'Eventlify',
 		description:
-			'The events web application stands as a comprehensive, full-stack platform for managing events taking place globally. With this app you have the capability to purchase tickets for any event published there or even initiate and manage your own events.',
+			' ReversIA the Reversi Othello Game App is a hybrid platform available for iOS, Android, and web users. This application allows players to enjoy the classic game of Reversi Othello in various modes. Users can challenge an AI opponent, watch two AI opponents play against each other, or engage in player versus player matches. The app also offers the flexibility to expand its offerings to host additional games in the future. With intuitive gameplay and multi-platform accessibility, ReversIA App provides an immersive and enjoyable gaming experience for all types of players.',
 		tags: [
 			{
 				name: 'typescript',
@@ -230,7 +230,7 @@ const projects = [
 	{
 		name: '3D T-Shirts AI Design',
 		description:
-			'A website project where you can make custom design t-shirts in 3D with the help of AI in real-time. You can also choose color or upload your own images to make your t-shirt truly unique.',
+			'The Open Source Software Study Project involved conducting comprehensive research on both open source and closed-source software. Through interviews with industry professionals and analysis of user knowledge gaps, we gathered valuable insights. Using this information, we developed an application that serves as a comprehensive resource, integrating questionnaires, surveys, training modules, and informative graphs. The app aims to bridge the knowledge gap and provide users with a deeper understanding of both open source and closed-source software, empowering them to make informed decisions.',
 		tags: [
 			{
 				name: 'javascript',
