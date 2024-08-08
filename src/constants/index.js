@@ -12,6 +12,22 @@ import {
 	doctoratwork,
 	doctoratwork1,
 	e_commerce,
+	avoidem,
+	banc_essai,
+	wolfit,
+	momento,
+	speedgun,
+	chatbot,
+	theconcierge,
+	tinkerkit,
+	competition_robotics,
+	menuar,
+	langage_rec,
+	keras,
+	othelloia,
+	chessme,
+	heavenvr,
+	ensimasso,
 	ketchup,
 	eventlify,
 	figma,
@@ -148,329 +164,293 @@ const experiences = [
 	},
 ];
 
-const projects = [
+const projects = {
+  webAppDev: [
 	{
-		name: 'E-Commerce Shop App',
+		name: 'Reversia',
 		description:
-			'Ketch\'up is a mobile application designed to facilitate reunions among friends by streamlining the planning process for trips, accommodations, activities, and expenses. The app considers the availability and budget constraints of each participant to ensure a seamless and enjoyable experience. With Ketch\'up, users can easily coordinate and organize meetups, ensuring that everyone\'s preferences and needs are taken into account.',
+		  'A Reversi game project with an AI model or human opponent. With multiple modes, runs on ios & android developed using Python and ionic-angular.',
 		tags: [
-			{
-				name: 'typescript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'react',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'payloadcms',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'next',
-				color: 'yellow-text-gradient',
-			},
+		  { name: 'Python', color: 'blue-text-gradient' },
+		  { name: 'DevOps', color: 'green-text-gradient' },
+		  { name: 'Ionic', color: 'pink-text-gradient' },
 		],
-		image: ketchup,
+		image: ReversIA,
 		source_code_link: 'https://github.com/exslym/ecommerce/',
 		website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
+
 	{
-		name: '3D Tiny World',
-		description:
-			'NeverLost is an indoor navigation application equipped with augmented reality (AR) and image recognition artificial intelligence (IA) capabilities. Designed for use in complex indoor environments such as malls, train stations, airports, hospitals, and universities, NeverLost provides users with seamless navigation and guidance. The app offers features such as parking option booking, real-time availability updates, and detailed directions to destinations within these facilities. By combining AR technology with advanced IA, NeverLost enhances the user experience by providing intuitive and efficient indoor navigation solutions.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'react',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'tailwindcss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'threejs',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: NeverLost,
-		source_code_link: 'https://github.com/exslym/Tiny-World-3D/',
-		website_link: 'https://exslym.github.io/Tiny-World-3D/',
+	  name: 'Chatbot Telegram',
+	  description:
+		'A Telegram chatbot that interacts with users through automated responses and various tasks based on commands. Utilizes Telegram API and Post-Soap API for seamless integration.',
+	  tags: [
+		{ name: 'Java', color: 'blue-text-gradient' },
+		{ name: 'Spring', color: 'green-text-gradient' },
+		{ name: 'Postman', color: 'pink-text-gradient' },
+		{ name: 'Soap API', color: 'yellow-text-gradient' },
+	  ],
+	  image: chatbot,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
+  
 	{
-		name: 'Eventlify',
-		description:
-			' ReversIA the Reversi Othello Game App is a hybrid platform available for iOS, Android, and web users. This application allows players to enjoy the classic game of Reversi Othello in various modes. Users can challenge an AI opponent, watch two AI opponents play against each other, or engage in player versus player matches. The app also offers the flexibility to expand its offerings to host additional games in the future. With intuitive gameplay and multi-platform accessibility, ReversIA App provides an immersive and enjoyable gaming experience for all types of players.',
-		tags: [
-			{
-				name: 'typescript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'react',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'tailwindcss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'next14',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: ReversIA,
-		source_code_link: 'https://github.com/exslym/eventlify/',
-		website_link: 'https://eventlify-exs.vercel.app/',
+	  name: 'Momento',
+	  description:
+		'An event management app that streamlines event planning and guest management. Features include event creation, scheduling, and notifications for a smooth event experience.',
+	  tags: [
+		{ name: 'Flutter', color: 'blue-text-gradient' },
+		{ name: 'Firebase', color: 'green-text-gradient' },
+		{ name: 'REST APIs', color: 'pink-text-gradient' },
+	  ],
+	  image: momento,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
+  
 	{
-		name: '3D T-Shirts AI Design',
-		description:
-			'The Open Source Software Study Project involved conducting comprehensive research on both open source and closed-source software. Through interviews with industry professionals and analysis of user knowledge gaps, we gathered valuable insights. Using this information, we developed an application that serves as a comprehensive resource, integrating questionnaires, surveys, training modules, and informative graphs. The app aims to bridge the knowledge gap and provide users with a deeper understanding of both open source and closed-source software, empowering them to make informed decisions.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'react',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'tailwindcss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'openai',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: liberty,
-		source_code_link: 'https://github.com/exslym/3D-AI-Project/',
-		website_link: 'https://exslym.github.io/3D-AI-Project/',
+	  name: 'AvoidEm',
+	  description:
+		'A location-sharing app that tracks and shares real-time locations. Includes features for privacy controls, notifications, and location tracking to enhance user connectivity.',
+	  tags: [
+		{ name: 'Kotlin', color: 'blue-text-gradient' },
+		{ name: 'Firebase', color: 'green-text-gradient' },
+		{ name: 'Maps API', color: 'pink-text-gradient' },
+	  ],
+	  image: avoidem,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
+  
 	{
-		name: 'Cryptocurrency Prices',
-		description:
-			'A website version of mobile App created using the Flutter framework. The app provides real-time information about the prices of various cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and many others.',
-		tags: [
-			{
-				name: 'dart',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'flutter',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'bloc',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'firebase',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: Treecoin,
-		source_code_link: 'https://github.com/exslym/Crypto-Coins-List/',
-		website_link: 'https://cryptocurrency-prices-exslym.vercel.app/',
+	  name: 'EnsimAsso',
+	  description:
+		'A website designed for school associations, featuring user-friendly interfaces and tools for association management. Provides a centralized platform for various association activities.',
+	  tags: [
+		{ name: 'Figma', color: 'green-text-gradient' },
+		{ name: 'Splinetool', color: 'pink-text-gradient' },
+	  ],
+	  image: ensimasso,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
+  ],
+  gameDev: [
 	{
-		name: 'AI Article Summarizer',
-		description:
-			'This minimalistic cozy color app is an AI article summarizer that transforms lengthy articles into clear and concise summaries, using an article extractor and summarizer by RapidAPI, powered by openAI GPT-4.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'react',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'tailwindcss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'openai',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: projectdb,
-		source_code_link: 'https://github.com/exslym/AI-Summarizer/',
-		website_link: 'https://exslym.github.io/AI-Summarizer/',
+	  name: 'HeavenVR',
+	  description:
+		'A VR game set in a paradise-themed environment, featuring immersive missions and experiences. Built with Unity and Blender for a captivating virtual reality experience.',
+	  tags: [
+		{ name: 'Blender', color: 'blue-text-gradient' },
+		{ name: 'Unity', color: 'green-text-gradient' },
+		{ name: 'C#', color: 'pink-text-gradient' },
+		{ name: 'VR Development', color: 'yellow-text-gradient' },
+	  ],
+	  image: heavenvr,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
-	
+  
 	{
-		name: 'Space Invaders [Game]',
-		description:
-			'Web-based legendary classic arcade game Space Invaders made with JavaScript and Canvas with its iconic pixel graphics and addictive gameplay with mobile adaptivity and touch controls.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'html',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'canvas',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: captcha,
-		source_code_link: 'https://github.com/exslym/Space-Invaders_GAME/',
-		website_link: 'https://exslym.github.io/Space-Invaders_GAME/',
+	  name: 'MenuAR',
+	  description:
+		'An augmented reality menu app that allows users to scan dishes and place orders from their mobile devices. Enhances dining with interactive and immersive features.',
+	  tags: [
+		{ name: 'Unity', color: 'blue-text-gradient' },
+		{ name: 'Splinetool', color: 'green-text-gradient' },
+		{ name: 'ARKit', color: 'pink-text-gradient' },
+		{ name: 'Vuforia', color: 'yellow-text-gradient' },
+	  ],
+	  image: menuar,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
 
 	{
-		name: 'Space Invaders [Game]',
+		name: 'ChessMe',
 		description:
-			'Web-based legendary classic arcade game Space Invaders made with JavaScript and Canvas with its iconic pixel graphics and addictive gameplay with mobile adaptivity and touch controls.',
+		  'A chess game app with a chat feature for player interactions. Supports real-time gameplay and communication through a Node.js backend and React frontend.',
 		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'html',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'canvas',
-				color: 'yellow-text-gradient',
-			},
+		  { name: 'React', color: 'blue-text-gradient' },
+		  { name: 'Axios', color: 'green-text-gradient' },
+		  { name: 'Node.js', color: 'pink-text-gradient' },
+		  { name: 'Socket.io', color: 'yellow-text-gradient' },
 		],
-		image: space_invaders,
-		source_code_link: 'https://github.com/exslym/Space-Invaders_GAME/',
-		website_link: 'https://exslym.github.io/Space-Invaders_GAME/',
+		image: chessme,
+		source_code_link: 'https://github.com/exslym/ecommerce/',
+		website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
+
 	{
-		name: '2048 [Game]',
+		name: '2048',
 		description:
-			'This is a popular puzzle game where the player must combine numbered tiles to reach the ultimate goal of creating a tile with the number 2048. When two tiles with the same number collide, they merge into one tile with a value equal to the sum of the two.',
+		  'A classic 2048 puzzle game implemented with JavaScript, HTML, and CSS. Features a responsive design and smooth gameplay for a timeless gaming experience.',
 		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'htnl',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'algorithms',
-				color: 'yellow-text-gradient',
-			},
+		  { name: 'JavaScript', color: 'blue-text-gradient' },
+		  { name: 'HTML', color: 'green-text-gradient' },
+		  { name: 'CSS', color: 'pink-text-gradient' },
 		],
 		image: game_2048,
-		source_code_link: 'https://github.com/exslym/2048-Game/',
-		website_link: 'https://exslym.github.io/2048-Game/',
+		source_code_link: 'https://github.com/exslym/ecommerce/',
+		website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
-	// {
-	// 	name: 'ChatGPT App (web vers.)',
-	// 	description:
-	// 		'A website version of mobile app ChatGPT project where you can interact with openAI chatbot based on gpt-3.5-turbo-0301 model, also you can choose other model on the fly.',
-	// 	tags: [
-	// 		{
-	// 			name: 'dart',
-	// 			color: 'blue-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'flutter',
-	// 			color: 'green-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'openai-api',
-	// 			color: 'pink-text-gradient',
-	// 		},
-	// 	],
-	// 	image: chat_gpt,
-	// 	source_code_link: 'https://github.com/exslym/ChatGPT_App/',
-	// 	website_link: 'https://chat-gpt-app-kohl.vercel.app/',
-	// },
-	// {
-	// 	name: 'Social Network',
-	// 	description:
-	// 		'A social network project is a dynamic web application (SPA) that allows users to search and interact with each other by liking, commenting on posts or chatting.',
-	// 	// description:
-	// 	// 'A social network project is a web application (SPA) that allows users to search and interact with each other by liking, commenting on posts or chatting. ReactJS have been used as the primary front-end framework to create dynamic and interactive user interfaces that update in real-time.',
-	// 	tags: [
-	// 		{
-	// 			name: 'typescript',
-	// 			color: 'blue-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'react',
-	// 			color: 'green-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'ant-design',
-	// 			color: 'pink-text-gradient',
-	// 		},
-	// 	],
-	// 	image: social_network,
-	// 	source_code_link: 'https://github.com/exslym/My-Social-Network/',
-	// 	website_link: 'https://exslym.github.io/My-Social-Network/',
-	// },
-	// {
-	// 	name: 'CNS-Portfolio',
-	// 	description:
-	// 		"The multi-page website with interactive educational question-answer quiz for physicians that helps to learn about treatment options and appropriate drug prescribing based on patient's history and various health conditions.",
-	// 	tags: [
-	// 		{
-	// 			name: 'javascript',
-	// 			color: 'blue-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'multipage',
-	// 			color: 'green-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'scss',
-	// 			color: 'pink-text-gradient',
-	// 		},
-	// 	],
-	// 	image: cns_portfolio,
-	// 	source_code_link: 'https://github.com/exslym/CNS-Portfolio/',
-	// 	website_link: 'https://exslym.github.io/CNS-Portfolio/',
-	// },
-];
+  ],
+  aidataDev: [
+	{
+	  name: 'Voice Language Recognition',
+	  description:
+		'A project that recognizes different languages from voice inputs using Python and TensorFlow. Includes model training and implementation of advanced voice recognition techniques.',
+	  tags: [
+		{ name: 'Python', color: 'blue-text-gradient' },
+		{ name: 'TensorFlow', color: 'green-text-gradient' },
+		{ name: 'Librosa', color: 'pink-text-gradient' },
+	  ],
+	  image: langage_rec,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'Image Recognition',
+	  description:
+		'An image recognition system that classifies and detects objects within images using Python and Keras. Employs convolutional neural networks (CNNs) for accurate analysis.',
+	  tags: [
+		{ name: 'Python', color: 'blue-text-gradient' },
+		{ name: 'Keras', color: 'green-text-gradient' },
+		{ name: 'OpenCV', color: 'pink-text-gradient' },
+		{ name: 'CNNs', color: 'yellow-text-gradient' },
+	  ],
+	  image: keras,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'OthelloIA',
+	  description:
+		'An AI-powered Reversi (Othello) game that lets players compete against various AI difficulty levels. Uses Python and TensorFlow for game logic and AI strategies.',
+	  tags: [
+		{ name: 'Python', color: 'blue-text-gradient' },
+		{ name: 'TensorFlow', color: 'green-text-gradient' },
+		{ name: 'Scikit-learn', color: 'pink-text-gradient' },
+	  ],
+	  image: othelloia,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'Wolfit',
+	  description:
+		'A hackathon project featuring a werewolf game with AI-driven storytelling. Utilizes Python and advanced NLP techniques to create a dynamic, interactive experience.',
+	  tags: [
+		{ name: 'Python', color: 'blue-text-gradient' },
+		{ name: 'LLM', color: 'green-text-gradient' },
+		{ name: 'NLP', color: 'pink-text-gradient' },
+	  ],
+	  image: wolfit,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'TheConcierge',
+	  description:
+		'A web app for concierge management, integrating MongoDB, SQL, PHP, and Node.js for comprehensive data handling and user management. Designed for efficient service delivery.',
+	  tags: [
+		{ name: 'MongoDB', color: 'blue-text-gradient' },
+		{ name: 'SQL', color: 'green-text-gradient' },
+		{ name: 'PHP', color: 'pink-text-gradient' },
+		{ name: 'Express.js', color: 'yellow-text-gradient' },
+		{ name: 'Node.js', color: 'yellow-text-gradient' },
+	  ],
+	  image: theconcierge,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  ],
+  embededsysDev: [
+
+	{
+	  name: 'Bras Robotique',
+	  description:
+		'A project featuring a robotic arm controlled by Arduino and servo motors. Demonstrates precise control and automation applications in practical scenarios.',
+	  tags: [
+		{ name: 'Arduino', color: 'blue-text-gradient' },
+		{ name: 'Tinkerkit', color: 'green-text-gradient' },
+		{ name: 'Servo Motors', color: 'pink-text-gradient' },
+	  ],
+	  image: tinkerkit,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'Competition Robotique',
+	  description:
+		'A robotics competition project featuring tennis-playing robots. Uses C++ programming, PID control, and embedded systems to achieve high performance in competitions.',
+	  tags: [
+		{ name: 'C', color: 'blue-text-gradient' },
+		{ name: 'C++', color: 'green-text-gradient' },
+		{ name: 'PID Control', color: 'pink-text-gradient' },
+		{ name: 'Embedded Systems', color: 'yellow-text-gradient' },
+	  ],
+	  image: competition_robotics,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'Banc Essai',
+	  description:
+		'An experimental bench project designed for testing and evaluating various mechanical and electronic components. Features real-time data logging and analysis capabilities.',
+	  tags: [
+		{ name: 'Arduino', color: 'blue-text-gradient' },
+		{ name: 'Sensors', color: 'green-text-gradient' },
+		{ name: 'Data Logging', color: 'pink-text-gradient' },
+	  ],
+	  image: banc_essai,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  
+	{
+	  name: 'SpeedGun',
+	  description:
+	    'A project focused on the conception and creation of a speed radar. Utilizes 3D printing for physical components, PCB design with KiCad, and CAD modeling with SolidWorks for an integrated speed measurement solution.',
+	  tags: [
+	    { name: '3D Printing', color: 'blue-text-gradient' },
+	    { name: 'PCB Design', color: 'green-text-gradient' },
+	    { name: 'KiCad', color: 'pink-text-gradient' },
+	    { name: 'SolidWorks', color: 'yellow-text-gradient' },
+	  ],
+	  image: speedgun,
+	  source_code_link: 'https://github.com/exslym/ecommerce/',
+	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	},
+  ],
+};
+  
 
 const socials = [
 	{
 		name: 'linkedin',
 		icon: linkedin,
-		link: `https://www.linkedin.com/in/${linkedinUser}/`,
+		link: 'https://www.linkedin.com/in/${linkedinUser}/',
 	},
 	{
 		name: 'github',
 		icon: github_alt,
-		link: `https://github.com/${githubUser}/`,
+		link: 'https://github.com/${githubUser}/',
 	},
 	{
 		name: 'discord',
 		icon: discord,
-		link: `https://discordapp.com/users/${discordUser}/`,
+		link: 'https://discordapp.com/users/${discordUser}/',
 	},
 ];
 
 export { experiences, projects, socials, technologies };
+
+
