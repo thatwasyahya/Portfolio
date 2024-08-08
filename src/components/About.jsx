@@ -16,10 +16,10 @@ const About = () => {
 				variants={fadeIn('', '', 0.2, 1)}
 				className='mt-4 text-primary text-[17px] max-w-3xl leading-[30px]'
 			>
-				<p>
+				<p className="text-justify">
 					I am a fifth-year Software Engineering student at the École Nationale Supérieure d’Ingénieur du Mans (ENSIM) with a passion for creating innovative solutions in Web and App development. My academic journey has equipped me with a solid foundation in computer science principles and a diverse skill set in programming languages and development frameworks. I am driven by a desire to merge cutting-edge technologies with intuitive design to deliver seamless user experiences, by using the skills I've learned during my academic journey, such as:
 				</p>
-				<ul>
+				<ul className="text-justify">
 					<li>
 						<strong>Software Engineering:</strong> Currently pursuing my degree at ENSIM, where I have gained expertise in programming languages such as Java, Python, and JavaScript. I have a strong understanding of software development methodologies and algorithms, coupled with practical experience in web and app development.
 					</li>
@@ -33,7 +33,7 @@ const About = () => {
 						<strong>Version Control & Collaboration:</strong> Proficient in using Git for version control and collaborative development, enabling seamless integration and teamwork in software projects.
 					</li>
 				</ul>
-				<p>
+				<p className="text-justify">
 					Currently seeking an internship opportunity in Web/App development to further enhance my skills, gain practical experience, and contribute to the success of innovative projects. I am enthusiastic about collaborating with industry professionals and leveraging my expertise to tackle real-world challenges in software engineering.
 				</p>
 			</motion.div>

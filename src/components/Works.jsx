@@ -133,17 +133,17 @@ const Works = () => {
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='w-full flex text-justify'>
         <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-3 text-primary text-[17px] max-w-3xl leading-[30px]'>
-          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively, i will be also working on many project during this year such as IoT, cyber security and cloud development, so there's a lot more to come on this list.
         </motion.p>
       </div>
 
       <div className='flex flex-col items-center mb-5'>
-        <ProjectCarousel category="Web App Development" projects={projects.webAppDev} />
-        <ProjectCarousel category="Game Development" projects={projects.gameDev} />
-        <ProjectCarousel category="AI Data Development" projects={projects.aidataDev} />
-        <ProjectCarousel category="Embedded Systems Development" projects={projects.embededsysDev} />
+        <ProjectCarousel category="Web & App" projects={projects.webAppDev} />
+        <ProjectCarousel category="Game & AR/VR" projects={projects.gameDev} />
+        <ProjectCarousel category="AI & Data" projects={projects.aidataDev} />
+        <ProjectCarousel category="Embedded Systems" projects={projects.embededsysDev} />
       </div>
     </>
   );

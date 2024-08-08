@@ -181,7 +181,7 @@ const experiences = [
 const projects = {
   webAppDev: [
 	{
-		name: 'Reversia',
+		name: 'ReversIA',
 		description:
 		  'A Reversi game project with an AI model or human opponent. With multiple modes, runs on ios & android developed using Python and ionic-angular.',
 		tags: [
@@ -261,7 +261,7 @@ const projects = {
 	},
   
 	{
-	  name: 'MenuAR',
+	  name: 'PixlePlate',
 	  description:
 		'An augmented reality menu app that allows users to scan dishes and place orders from their mobile devices. Enhances dining with interactive and immersive features.',
 	  tags: [
@@ -389,7 +389,7 @@ const projects = {
 	},
   
 	{
-	  name: 'Competition Robotique',
+	  name: 'Robot Champ',
 	  description:
 		'A robotics competition project featuring tennis-playing robots. Uses C++ programming, PID control, and embedded systems to achieve high performance in competitions.',
 	  tags: [
@@ -402,13 +402,13 @@ const projects = {
 	},
   
 	{
-	  name: 'Banc Essai',
+	  name: 'Test Bench',
 	  description:
 		'An experimental bench project designed for testing and evaluating various mechanical and electronic components. Features real-time data logging and analysis capabilities.',
 	  tags: [
-		{ name: 'Arduino', color: 'blue-text-gradient' },
-		{ name: 'Sensors', color: 'green-text-gradient' },
-		{ name: 'Data Logging', color: 'pink-text-gradient' },
+		{ name: 'Electrotechnique', color: 'blue-text-gradient' },
+		{ name: 'Automatisme', color: 'green-text-gradient' },
+		{ name: 'IHM', color: 'pink-text-gradient' },
 	  ],
 	  image: banc_essai,
 	},
@@ -433,17 +433,17 @@ const socials = [
 	{
 		name: 'linkedin',
 		icon: linkedin,
-		link: 'https://www.linkedin.com/in/${linkedinUser}/',
+		link: 'https://www.linkedin.com/in/yahya-elyacoubi-ensim/',
 	},
 	{
 		name: 'github',
 		icon: github_alt,
-		link: 'https://github.com/${githubUser}/',
+		link: 'https://github.com/thatwasyahya',
 	},
 	{
 		name: 'discord',
 		icon: discord,
-		link: 'https://discordapp.com/users/${discordUser}/',
+		link: 'https://discord.com/channels/@yaya3704',
 	},
 ];
 
