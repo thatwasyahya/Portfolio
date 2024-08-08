@@ -15,7 +15,6 @@ import {
 	avoidem,
 	banc_essai,
 	wolfit,
-	univ,
 	momento,
 	speedgun,
 	chatbot,
@@ -39,6 +38,7 @@ import {
 	github_alt,
 	html,
 	mcdo,
+	univ,
 	nodejs,
 	ionic,
 	javascript,
@@ -152,23 +152,24 @@ const experiences = [
 	},
 	{
 		title: 'Versatile coworker',
-		company_name: 'McDonald\'s',
+		company_name: 'McDonald\'s & Dominos',
 		icon: mcdo,
 		iconBg: '#003500',
-		date: '2023 : June - November',
+		date: 'June 2023 - Now',
 		points: [
 			"Roles in McDonald's Kitchen: Managed various positions within the kitchen, including bread preparation, topping application, protein handling, meat grilling, and frying, ensuring smooth production flow and adherence to quality standards.",
 			'Cleanliness and Stock Management: Ensured cleanliness along the production line, maintained production quality, and managed inventory, including sourcing necessary items from different storage areas in case of stock shortages.',
 			"Dishwashing: Ensured cleanliness of utensils and surfaces, particularly for reuse, with a thorough cleaning process during closing hours.",
 			'Counter Responsibilities: Engaged in diverse tasks at the counter, including restaurant cleanliness supervision, table service, beverage management, special orders handling such as salads, and assembly tasks. Also responsible for managing the drive-through, handling payments, and coordinating order quality checks before delivery.',
+			"Delivery Management: Oversaw and coordinated delivery tasks, ensuring timely and accurate delivery of orders to the client.",
 		],
 	},
 	{
-		title: 'Active Life at University',
+		title: 'Active Life',
 		company_name: 'University',
-		icon: 'univ',
-		iconBg: '#003500',
-		date: 'september 2022 - february 2025',
+		icon: univ,
+		iconBg: '#fffff0',
+		date: 'september 2022 - Now',
 		points: [
 		  "Vice-President of the Sports Office at IUT: Catalyst for sports initiatives and promotion of student cohesion.",
 		  "School Cafeteria Manager: Orchestrated a friendly and efficient food service.",
@@ -189,8 +190,7 @@ const projects = {
 		  { name: 'Ionic', color: 'pink-text-gradient' },
 		],
 		image: ReversIA,
-		source_code_link: 'https://github.com/exslym/ecommerce/',
-		website_link: 'https://e-commerce-exs.payloadcms.app/',
+		source_code_link: 'https://github.com/theonlyyaya/project',
 	},
 
 	{
@@ -204,8 +204,7 @@ const projects = {
 		{ name: 'Soap API', color: 'yellow-text-gradient' },
 	  ],
 	  image: chatbot,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/ChatBot',
 	},
   
 	{
@@ -218,8 +217,7 @@ const projects = {
 		{ name: 'REST APIs', color: 'pink-text-gradient' },
 	  ],
 	  image: momento,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/Momento',
 	},
   
 	{
@@ -232,8 +230,7 @@ const projects = {
 		{ name: 'Maps API', color: 'pink-text-gradient' },
 	  ],
 	  image: avoidem,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/AvoidEm',
 	},
   
 	{
@@ -245,8 +242,7 @@ const projects = {
 		{ name: 'Splinetool', color: 'pink-text-gradient' },
 	  ],
 	  image: ensimasso,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  website_link_link: 'https://www.figma.com/design/6vLYp05pQ28s467exsAUbg/ensimasso?node-id=0-1&t=TbJbNtpP1qaGG10b-1',
 	},
   ],
   gameDev: [
@@ -261,8 +257,7 @@ const projects = {
 		{ name: 'VR Development', color: 'yellow-text-gradient' },
 	  ],
 	  image: heavenvr,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/',
 	},
   
 	{
@@ -276,8 +271,8 @@ const projects = {
 		{ name: 'Vuforia', color: 'yellow-text-gradient' },
 	  ],
 	  image: menuar,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/',
+	  website_link: 'https://www.canva.com/design/DAGGjMPNSPg/EcRNSWoKD-abPydxOOBhuA/edit?utm_content=DAGGjMPNSPg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
 	},
 
 	{
@@ -291,8 +286,8 @@ const projects = {
 		  { name: 'Socket.io', color: 'yellow-text-gradient' },
 		],
 		image: chessme,
-		source_code_link: 'https://github.com/exslym/ecommerce/',
-		website_link: 'https://e-commerce-exs.payloadcms.app/',
+		source_code_link: 'https://github.com/thatwasyahya/ChessMe/',
+		website_link: 'https://thatwasyahya.github.io/ChessMe/',
 	},
 
 	{
@@ -305,8 +300,8 @@ const projects = {
 		  { name: 'CSS', color: 'pink-text-gradient' },
 		],
 		image: game_2048,
-		source_code_link: 'https://github.com/exslym/ecommerce/',
-		website_link: 'https://e-commerce-exs.payloadcms.app/',
+		source_code_link: 'https://github.com/thatwasyahya/2048/',
+		website_link: 'https://thatwasyahya.github.io/2048/',
 	},
   ],
   aidataDev: [
@@ -320,8 +315,8 @@ const projects = {
 		{ name: 'Librosa', color: 'pink-text-gradient' },
 	  ],
 	  image: langage_rec,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/',
+	  website_link: 'https://www.kaggle.com/competitions/language-identification-lid-2023/',
 	},
   
 	{
@@ -335,8 +330,7 @@ const projects = {
 		{ name: 'CNNs', color: 'yellow-text-gradient' },
 	  ],
 	  image: keras,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/',
 	},
   
 	{
@@ -349,8 +343,7 @@ const projects = {
 		{ name: 'Scikit-learn', color: 'pink-text-gradient' },
 	  ],
 	  image: othelloia,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/othelooIA',
 	},
   
 	{
@@ -363,8 +356,7 @@ const projects = {
 		{ name: 'NLP', color: 'pink-text-gradient' },
 	  ],
 	  image: wolfit,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/achrafwe/24H_du_code',
 	},
   
 	{
@@ -379,8 +371,7 @@ const projects = {
 		{ name: 'Node.js', color: 'yellow-text-gradient' },
 	  ],
 	  image: theconcierge,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
+	  source_code_link: 'https://github.com/thatwasyahya/projectDB',
 	},
   ],
   embededsysDev: [
@@ -395,8 +386,6 @@ const projects = {
 		{ name: 'Servo Motors', color: 'pink-text-gradient' },
 	  ],
 	  image: tinkerkit,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
   
 	{
@@ -410,8 +399,6 @@ const projects = {
 		{ name: 'Embedded Systems', color: 'yellow-text-gradient' },
 	  ],
 	  image: competition_robotics,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
   
 	{
@@ -424,8 +411,6 @@ const projects = {
 		{ name: 'Data Logging', color: 'pink-text-gradient' },
 	  ],
 	  image: banc_essai,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
   
 	{
@@ -439,8 +424,6 @@ const projects = {
 	    { name: 'SolidWorks', color: 'yellow-text-gradient' },
 	  ],
 	  image: speedgun,
-	  source_code_link: 'https://github.com/exslym/ecommerce/',
-	  website_link: 'https://e-commerce-exs.payloadcms.app/',
 	},
   ],
 };
