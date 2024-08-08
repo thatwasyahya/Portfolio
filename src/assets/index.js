@@ -74,11 +74,14 @@ import heavenvr from './heavenvr.png';
 import ensimasso from './ensimasso.png';   
 import speedgun from './speedgun.png';
 import chatbot from './chatbot.png';
+import univ from './univ.png';
+
 
 export {
   ai_3d_tshirts,
   ai_summarizer,
   speedgun,
+  univ,
   astro,
   chatbot,
   angular,

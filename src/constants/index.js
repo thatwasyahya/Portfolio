@@ -15,6 +15,7 @@ import {
 	avoidem,
 	banc_essai,
 	wolfit,
+	univ,
 	momento,
 	speedgun,
 	chatbot,
@@ -138,6 +139,18 @@ const technologies = [
 
 const experiences = [
 	{
+		title: 'Internship',
+		company_name: 'Détection + Automatisme',
+		icon: freelance,
+		iconBg: '#383E56',
+		date: '2022 : Mai - Aout',
+		points: [
+			'Creation of a test bench supervised by a human-machine interface: During my 10-week internship at Détection+Automatisme in Île-de-France, I was tasked with designing an innovative test bench under the supervision of a human-machine interface. This involved designing and building a comprehensive testing system, integrating sensors, actuators, and a user-friendly interface to control and monitor the testing process.',
+			'Development and study of electrical diagrams: An integral part of my role was to create and study detailed electrical diagrams for the test bench. This included analyzing system requirements, selecting appropriate electrical components, creating accurate electrical diagrams, and verifying their compliance with standards and technical specifications.',
+			'Programming of Industrial Automation: In addition to hardware design, I was also responsible for programming industrial automation to automate the operations of the test bench. This involved developing PLC (Programmable Logic Controller) programs to control actuator movements, collect sensor data, and manage user interfaces.',
+		],
+	},
+	{
 		title: 'Versatile coworker',
 		company_name: 'McDonald\'s',
 		icon: mcdo,
@@ -151,17 +164,17 @@ const experiences = [
 		],
 	},
 	{
-		title: 'Internship',
-		company_name: 'Détection + Automatisme',
-		icon: freelance,
-		iconBg: '#383E56',
-		date: '2022 : Mai - Aout',
+		title: 'Active Life at University',
+		company_name: 'University',
+		icon: 'univ',
+		iconBg: '#003500',
+		date: 'september 2022 - february 2025',
 		points: [
-			'Creation of a test bench supervised by a human-machine interface: During my 10-week internship at Détection+Automatisme in Île-de-France, I was tasked with designing an innovative test bench under the supervision of a human-machine interface. This involved designing and building a comprehensive testing system, integrating sensors, actuators, and a user-friendly interface to control and monitor the testing process.',
-			'Development and study of electrical diagrams: An integral part of my role was to create and study detailed electrical diagrams for the test bench. This included analyzing system requirements, selecting appropriate electrical components, creating accurate electrical diagrams, and verifying their compliance with standards and technical specifications.',
-			'Programming of Industrial Automation: In addition to hardware design, I was also responsible for programming industrial automation to automate the operations of the test bench. This involved developing PLC (Programmable Logic Controller) programs to control actuator movements, collect sensor data, and manage user interfaces.',
+		  "Vice-President of the Sports Office at IUT: Catalyst for sports initiatives and promotion of student cohesion.",
+		  "School Cafeteria Manager: Orchestrated a friendly and efficient food service.",
+		  "Vice-President of the Student Union (BDE): Key player in the animation and development of student life within the institution.",
 		],
-	},
+	  }	  
 ];
 
 const projects = {

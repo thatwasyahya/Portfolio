@@ -8,6 +8,35 @@ import { projects } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+
+// Styles en ligne pour les flèches personnalisées
+const arrowStyle = {
+  position: 'absolute',
+  top: '50%',
+  transform: 'translateY(-50%)',
+  backgroundColor: '#333',
+  color: '#fff',
+  borderRadius: '50%',
+  width: '40px',
+  height: '40px',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  cursor: 'pointer',
+  zIndex: 10,
+  border: '1px solid #ccc',
+};
+
+const leftArrowStyle = {
+  ...arrowStyle,
+  left: '0px',
+};
+
+const rightArrowStyle = {
+  ...arrowStyle,
+  right: '0px',
+};
 
 // ProjectCard Component
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, website_link }) => {
@@ -15,12 +44,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
     <motion.div
       variants={fadeIn('up', 'spring', 0.4 * index, 0.5)}
       className="flex-shrink-0 mx-2 my-4 flex flex-col"
-      style={{ width: '350px', height: '600px' }} // Fixed width and height
+      style={{ width: '350px', height: '600px' }}
     >
       <Tilt options={{ max: 45, scale: 1, speed: 450 }} className='bg-tertiary rounded-2xl h-full green-pink-gradient p-[1px]'>
         <div className='bg-tertiary w-full h-full rounded-2xl p-4 flex flex-col justify-between'>
           <div>
-            <div className='relative w-full h-3/5'>
+            <div className='relative w-full h-2/3'>
               <img src={image} alt={name} className='w-full h-full rounded-[10px] object-cover border-[1px] border-secondary' />
               <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
                 <div onClick={() => window.open(website_link, '_blank')} className='black-gradient w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer mr-2'>
@@ -31,12 +60,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                 </div>
               </div>
             </div>
-            <div className='mt-2'> {/* Reduced margin-top */}
+            <div className='mt-2'> 
               <h3 className='text-white font-bold text-[18px]'>{name}</h3>
-              <p className='mt-1 text-secondary text-[12px]'>{description}</p> {/* Reduced margin-top */}
+              <p className='mt-1 text-secondary text-[12px]'>{description}</p>
             </div>
           </div>
-          <div className='flex flex-wrap gap-3'> {/* Added margin-top for space between description and tags */}
+          <div className='flex flex-wrap gap-3'>
             {tags.map(tag => (
               <p key={tag.name} className={`text-[12px] ${tag.color}`}>
                 #{tag.name}
@@ -52,17 +81,39 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 // ProjectCarousel Component
 const ProjectCarousel = ({ category, projects }) => {
   return (
-    <div className='mt-16 mb-20 flex flex-col items-center'> {/* Margin bottom for spacing between carousels */}
+    <div className='mt-16 mb-5 flex flex-col items-center'>
       <h3 className="text-2xl font-bold">{category}</h3>
-      <div className='relative w-full' style={{ maxWidth: '1200px' }}>
+      <div className='relative w-full' style={{ maxWidth: '1250px' }}>
         <Carousel
           showArrows={true}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}
           centerMode={true}
-          centerSlidePercentage={33.33} // Adjust based on the number of items you want to display at once
-          className='mt-5'
+          centerSlidePercentage={30}
+          className='mt-5 '
+          renderArrowNext={(onClickHandler, hasNext, label) => (
+            hasNext && (
+              <div
+                onClick={onClickHandler}
+                style={rightArrowStyle}
+                aria-label={label}
+              >
+                <FaChevronRight />
+              </div>
+            )
+          )}
+          renderArrowPrev={(onClickHandler, hasPrev, label) => (
+            hasPrev && (
+              <div
+                onClick={onClickHandler}
+                style={leftArrowStyle}
+                aria-label={label}
+              >
+                <FaChevronLeft />
+              </div>
+            )
+          )}
         >
           {projects.map((project, index) => (
             <ProjectCard key={index} index={index} {...project} />
@@ -88,7 +139,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center mb-5'>
         <ProjectCarousel category="Web App Development" projects={projects.webAppDev} />
         <ProjectCarousel category="Game Development" projects={projects.gameDev} />
         <ProjectCarousel category="AI Data Development" projects={projects.aidataDev} />
